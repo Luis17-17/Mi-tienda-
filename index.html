@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <meta name="description" content="Descubre un producto que puede hacer tu día más fácil. Consulta detalles y solicita información.">
+  <title>Producto destacado | Tu tienda</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">✨ LANZAMIENTO · Descubre algo que te encantará</div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Inicio">TU<span>TIENDA</span></a>
+    <a class="header-link" href="#contacto">¿Dudas? Contáctanos</a>
+  </header>
+
+  <main>
+    <section class="product-layout">
+      <div class="visual-column">
+        <div class="product-image" role="img" aria-label="Ilustración provisional del producto">
+          <span class="image-badge">TU PRÓXIMO FAVORITO</span>
+          <div class="product-placeholder">
+            <span class="spark spark-one">✦</span>
+            <span class="placeholder-icon" aria-hidden="true">✧</span>
+            <strong>Tu producto<br>va aquí</strong>
+            <small>Reemplaza esta ilustración<br>por una foto real del producto</small>
+            <span class="spark spark-two">✦</span>
+          </div>
+        </div>
+        <div class="image-caption">Fotografía ilustrativa provisional. Añade imágenes autorizadas del producto real antes de publicar.</div>
+      </div>
+
+      <div class="product-info">
+        <p class="eyebrow">SELECCIÓN DESTACADA</p>
+        <h1>Un producto que<br><span>te va a encantar.</span></h1>
+        <p class="intro">Presenta aquí lo mejor de tu producto: qué hace, para quién es y por qué vale la pena conocerlo.</p>
+
+        <div class="price-row">
+          <span class="price" id="price">Precio por confirmar</span>
+          <span class="price-note">MXN</span>
+        </div>
+        <p class="price-disclaimer">El precio final y el costo de envío se confirmarán antes de realizar cualquier compra.</p>
+
+        <ul class="benefits">
+          <li><span>✓</span> Información clara y atención directa</li>
+          <li><span>✓</span> Consulta disponibilidad antes de comprar</li>
+          <li><span>✓</span> Compra confirmada solo después de verificar condiciones</li>
+        </ul>
+
+        <a class="button primary" href="#contacto">Quiero más información <span>→</span></a>
+        <a class="button secondary" href="#detalles">Ver detalles del producto</a>
+        <p class="trust-note">🔒 No se solicita información bancaria en esta página.</p>
+      </div>
+    </section>
+
+    <section class="feature-strip" aria-label="Ventajas de la tienda">
+      <div><span class="feature-icon">✦</span><strong>Atención personal</strong><small>Resolvemos tus dudas</small></div>
+      <div><span class="feature-icon">◎</span><strong>Compra informada</strong><small>Detalles antes de decidir</small></div>
+      <div><span class="feature-icon">♡</span><strong>Trato transparente</strong><small>Sin costos sorpresa</small></div>
+    </section>
+
+    <section class="details section" id="detalles">
+      <p class="eyebrow">CONOCE MÁS</p>
+      <h2>¿Por qué elegirlo?</h2>
+      <p class="section-lead">Usa este espacio para explicar beneficios reales y comprobables. Evita promesas que no puedas demostrar.</p>
+      <div class="detail-grid">
+        <article class="detail-card"><span>01</span><h3>Diseñado para ti</h3><p>Describe el uso principal y el tipo de persona a quien le puede servir.</p></article>
+        <article class="detail-card"><span>02</span><h3>Detalles importantes</h3><p>Añade materiales, medidas, compatibilidad, contenido del paquete u otras especificaciones reales.</p></article>
+        <article class="detail-card"><span>03</span><h3>Antes de comprar</h3><p>Confirma existencia, precio final, tiempos de entrega y política de cambios o devoluciones.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contacto">
+      <div>
+        <p class="eyebrow">¿TE INTERESA?</p>
+        <h2>Pregunta antes de comprar.</h2>
+        <p>Completa el formulario y se abrirá un mensaje listo para enviar por WhatsApp. Configura tu número antes de usarlo.</p>
+      </div>
+      <form id="interest-form">
+        <label for="customer-name">Tu nombre</label>
+        <input id="customer-name" name="name" autocomplete="name" placeholder="¿Cómo te llamas?" required>
+        <label for="customer-question">¿Qué quieres saber?</label>
+        <select id="customer-question" name="question">
+          <option>Precio y disponibilidad</option>
+          <option>Características del producto</option>
+          <option>Envío a mi domicilio</option>
+          <option>Garantía, cambios o devoluciones</option>
+        </select>
+        <label for="customer-message">Mensaje adicional (opcional)</label>
+        <textarea id="customer-message" name="message" rows="3" placeholder="Escribe tu duda aquí"></textarea>
+        <button class="button primary" type="submit">Continuar por WhatsApp ↗</button>
+        <p class="form-help" id="form-help">El formulario no guarda ni envía datos por sí solo; abre WhatsApp con el mensaje preparado.</p>
+      </form>
+    </section>
+
+    <section class="faq section">
+      <p class="eyebrow">INFORMACIÓN CLARA</p>
+      <h2>Preguntas frecuentes</h2>
+      <details><summary>¿Cuál es el precio?</summary><p>El precio está por confirmar. Actualiza esta página cuando hayas verificado el costo del proveedor, el envío y tu margen.</p></details>
+      <details><summary>¿Cuánto tarda el envío?</summary><p>El tiempo depende del proveedor y del destino. Confirma un plazo real antes de aceptar pedidos.</p></details>
+      <details><summary>¿Puedo comprar directamente aquí?</summary><p>Por ahora esta página sirve para recibir consultas. No procesa pagos ni confirma pedidos automáticamente.</p></details>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#">TU<span>TIENDA</span></a>
+    <p>© <span id="year"></span> Tu tienda. Todos los derechos reservados.</p>
+    <p class="footer-note">Reemplaza los textos de ejemplo y publica solo información real. Añade tus políticas de privacidad, compra, envío y devoluciones según corresponda.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
